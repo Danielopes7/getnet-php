@@ -46,7 +46,7 @@ $client_secret  = "xxxxxxxx-xxxx-xxxx-xxxxxxxxxxxxxxxxx";
 $seller_id      = "xxxxxxxx-xxxx-xxxx-xxxxxxxxxxxxxxxxx";
 $environment    = Environment::sandbox();
 
-//Opicional, passar chave se você quiser guardar o token do auth na sessão para não precisar buscar a cada trasação, só quando expira
+//Opcional, passar chave se você quiser guardar o token do auth na sessão para não precisar buscar a cada trasação, só quando expira
 $keySession = null;
 
 //Autenticação da API
